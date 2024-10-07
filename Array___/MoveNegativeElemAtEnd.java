@@ -1,6 +1,5 @@
 package Array___;
 
-import practice.Solution;
 
 import java.util.Arrays;
 import java.util.Scanner;
