@@ -3,7 +3,7 @@ package DSA.Recursion;
 public class SumOfDigits {
     public static int sumDigit(int n,int sum){
         if(n==0){
-            return 0;
+            return sum;
         }
         int rem=n%10;
 
