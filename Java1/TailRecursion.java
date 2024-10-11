@@ -16,5 +16,4 @@ public class TailRecursion {
         countdown(5);  // Starts countdown from 5
     }
 
-
 }
