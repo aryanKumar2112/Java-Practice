@@ -68,3 +68,5 @@ public class ReverseLinkedList {
 
     }
 }
+
+//output of the code is  4->3->2->1->NULL
