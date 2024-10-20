@@ -62,6 +62,18 @@ public class Singly1 {
         currNode.next=newNode;
 
     }
+    public void deleteFirst(){
+        head=head.next;
+    }
+    public void removeLast(){
+        Node curr=head;
+        Node prev=null;
+        while(curr.next!=null){
+            prev=curr;
+            curr=curr.next;
+        }
+        prev.next=null;
+    }
     public static void main(String[] args) {
         Singly1 s1=new Singly1();
         s1.addFirst("is");
@@ -70,7 +82,11 @@ public class Singly1 {
         s1.printList();
         s1.addLast("a");
         s1.printList();
-        s1.addBetween("link",3);
+//        s1.addBetween("link",3);
+//        s1.printList();
+        s1.deleteFirst();
+        s1.printList();
+        s1.removeLast();
         s1.printList();
 
     }
